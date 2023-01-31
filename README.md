@@ -1,63 +1,8 @@
-To compile the program:
-using this command: $ gcc -o rwmain ReaderWriter.c thread.h -pthread
+# Operating-Systems
+The course delves into the various responsibilities of an operating system and the techniques it employs to offer a seamless user experience.
 
-To run the program:
+Concurrency project:
+This project tackled the Readers-Writers problem, a synchronization issue that arises when multiple threads access a shared resource that is not designed to handle concurrent access, both for reading and writing purposes.
 
-- Include scenarios.txt to run an scenario for the program.
-- run ./ rwmain to see the result.
-  -Scenario given in the instructions to test edge cases
 
-$ gcc -o rwmain ReaderWriter.c thread.h -pthread
-./ rwmain
-Scenario Starts:
-Reader is created..
-Reader is reading
-Reader finished reading
-Reader is created..
-Writer is created..
-Reader is created..
-Reader is reading
-Reader is created..
-Reader is reading
-Reader finished reading
-Reader finished reading
-Reader is reading
-Reader is created..
-Writer is created..
-Reader is created..
-Reader is reading
-Reader finished reading
-Reader is created..
-Reader is reading
-Reader finished reading
-Writer is created..
-Reader finished reading
-Reader is reading
-Reader finished reading
-Writer is created..
-Writer is writing
-Writer finished writing
-Reader is created..
-Reader is reading
-Reader finished reading
-Writer is writing
-Writer finished writing
-Writer is writing
-Writer finished writing
-Writer is writing
-Writer finished writing
-Reader is created..
-Reader is created..
-Reader is reading
-Reader is reading
-Reader finished reading
-Reader is created..
-Reader is reading
-Reader finished reading
-Writer is created..
-Reader is created..
-Reader is reading
-Reader finished reading
-Reader finished reading
-Writer is writing
-Writer finished writing
+
